@@ -65,7 +65,6 @@ Key insights
 Tools: Python, pandas, NumPy, statsmodels (ExponentialSmoothing, ARIMA, adfuller), pmdarima (auto-ARIMA), Matplotlib, Seaborn.
 
 
-Amazon Stock Price vs. the US Economy (1997–2022) 
 [Amazon Stock Price vs. the US Economy (1997–2022)s book1](Amazon%20Stock%20Price%20Creating%20dataset%20book%201.ipynb)  [Amazon Stock Price vs. the US Economy (1997–2022) book2](Amazon%20Stock%20Price%20Analysis%201997%20to%202022%20book2.ipynb)
 
 Can US economic indicators help explain a stock price? 
