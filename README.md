@@ -161,7 +161,7 @@ Approach and findings
 Conclusion. Time is the strongest indicator: warm months, business days and rush hours. A few kinds of mildly bad weather also raise traffic, plausibly because pedestrians and cyclists switch to cars.
 Tools: Python, pandas, Matplotlib (grid charts, histograms, line plots).
 
-Profitable App Profiles for the App Store and Google Play
+[Profitable App Profiles for the App Store and Google Play](Profitable%20App%20Profiles%20for%20the%20App%20Store%20and%20Google%20Play%20Markets.ipynb)
 
 Business question. Our company builds only free Android and iOS apps and earns its revenue from in-app ads, so revenue depends on the number of users. Which app profiles attract the most users on both the App Store and Google Play?
 Validation strategy behind the analysis
