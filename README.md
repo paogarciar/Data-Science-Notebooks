@@ -177,11 +177,11 @@ Data cleaning, done in core Python with the csv module and custom functions
 
 Findings
 • The App Store is built for fun: 58.2% of free English apps are games, followed by Entertainment (7.9%) and Photo & Video (5.0%). Practical apps are rare.
-• Google Play is more balanced: Family (18.9%, mostly kids' games), Game (9.7%), Tools (8.5%), then Business, Lifestyle and Productivity.
-• A large supply doesn't mean large demand. Average installs by category on Google Play:
+• Google Play is more balanced: Family (18.9%, mostly kids' games), Games (9.7%), Tools (8.5%), then Business, Lifestyle, and Productivity.
+• A large supply doesn't mean great demand. Average installs by category on Google Play:
     ◦ Communication: 38.5M, but only 3.6M once apps with 100M+ installs are excluded
     ◦ Video Players: 24.7M (YouTube, MX Player)
-    ◦ Game: 15.6M, but the market is saturated
+    ◦ Games: 15.6M, but the market is saturated
     ◦ Books & Reference: 8.8M, skewed by only a handful of giants (Google Play Books, Kindle, Wattpad, Audible, Bible)
 • In the 1M–100M install range, Books & Reference is dominated by ebook readers and dictionaries. Several apps built around a single book (for example the Quran) do well.
 Recommendation. Turn a popular, ideally recent, book into an app. A plain library won't stand out, so add features: daily quotes, an audio version, quizzes and a discussion forum.
