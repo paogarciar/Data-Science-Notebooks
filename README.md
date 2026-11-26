@@ -37,7 +37,8 @@ Recommendation
 • Hand the India vs. Canada decision to the marketing team, possibly with a small follow-up survey.
 Tools: Python, pandas, Matplotlib, Seaborn.
 
-Anti-diabetic drug sales | Which forecasting method holds up on past data? | 
+[Anti-diabetic drug sales](Anti-diabetic%20drug%20sales.ipynb)
+
 Problem. Predict monthly anti-diabetic drug sales in Australia, and validate the forecasts with time-series cross-validation (backtesting) so the score does not depend on one lucky train/test split.
 Why it matters. Diabetes is a chronic, growing condition. Accurate demand forecasts help pharmacies, distributors and health systems avoid shortages and overstock.
 
