@@ -1,3 +1,4 @@
+[Uploading Anti-diabetic drug sales.ipynb…]()
 Analysis and modeling notebooks by Paola Garcia. Each notebook states its question, the data it used, what was done, and what the data cannot tell you.
 
 Portfolio with case studies and demos: https://paogarciar.github.io
@@ -26,7 +27,7 @@ Results: average monthly spend after cleaning
 
 <img width="641" height="230" alt="Screenshot 2026-11-25 at 16 28 52" src="https://github.com/user-attachments/assets/8210a0a6-5690-427e-93b8-8ab10987069b" />
 
-Australia dropped from $419 to $63 once outliers were removed. This shows how much the cleaning step mattered.
+Australia dropped from $419 to $63 once outliers were removed. This shows how much the cleaning step mattered. (Best%20Markets%20to%20Advertise%20in%20an%20E-learning%20Product.ipynb)
 Recommendation
 • Primary market: United States, the largest audience with the highest spend.
 • Avoid the UK: average spend is below the subscription price.
