@@ -65,7 +65,9 @@ Key insights
 Tools: Python, pandas, NumPy, statsmodels (ExponentialSmoothing, ARIMA, adfuller), pmdarima (auto-ARIMA), Matplotlib, Seaborn.
 
 
-Amazon stock price analysis | Can US economic indicators help explain a stock price? 
+[Amazon stock price analysis]
+
+Can US economic indicators help explain a stock price? 
 
 This project has two notebooks.
 Notebook 1: Creating the dataset
