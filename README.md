@@ -65,7 +65,8 @@ Key insights
 Tools: Python, pandas, NumPy, statsmodels (ExponentialSmoothing, ARIMA, adfuller), pmdarima (auto-ARIMA), Matplotlib, Seaborn.
 
 
-[Amazon stock price analysis book1](Amazon%20Stock%20Price%20Creating%20dataset%20book%201.ipynb)[Amazon stock price analysis book2](Amazon%20Stock%20Price%20Analysis%201997%20to%202022%20book2.ipynb)
+Amazon Stock Price vs. the US Economy (1997–2022) 
+[Amazon Stock Price vs. the US Economy (1997–2022)s book1](Amazon%20Stock%20Price%20Creating%20dataset%20book%201.ipynb)  [Amazon Stock Price vs. the US Economy (1997–2022) book2](Amazon%20Stock%20Price%20Analysis%201997%20to%202022%20book2.ipynb)
 
 Can US economic indicators help explain a stock price? 
 
@@ -125,7 +126,7 @@ Business value. Each customer now has a segment label, so marketing can tailor o
 Tools: Python, pandas, NumPy, scikit-learn (KMeans, StandardScaler), Matplotlib, Seaborn.
 
 
-[Data Visualization on Exchange Rates](Data%20Visualization%20on%20Exchange%20Rates.ipynb)
+[Euro–Dollar Exchange Rates: Data Storytelling (1999–2021)](Data%20Visualization%20on%20Exchange%20Rates.ipynb)
 
 Data. European Central Bank euro daily reference rates, Jan 1999 – Jan 2021: 5,699 rows, 40 currencies plus a date column.
 Cleaning
