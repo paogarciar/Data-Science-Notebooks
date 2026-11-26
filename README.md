@@ -125,7 +125,7 @@ Business value. Each customer now has a segment label, so marketing can tailor o
 Tools: Python, pandas, NumPy, scikit-learn (KMeans, StandardScaler), Matplotlib, Seaborn.
 
 
-[Euro–Dollar Exchange Rates: Data Storytelling (1999–2021)](Data%20Visualization%20on%20Exchange%20Rates.ipynb)
+[Euro–Dollar Exchange Rates: Data Storytelling (1999–2021)](Euro%20Dollar%20Exange%20Rates.ipynb)
 
 Data. European Central Bank euro daily reference rates, Jan 1999 – Jan 2021: 5,699 rows, 40 currencies plus a date column.
 Cleaning
