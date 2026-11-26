@@ -1,4 +1,4 @@
-Analysis and modeling notebooks by Paola Garcia. Each notebook states its question, the data it used, what was done, and what the data cannot tell you.
+Analysis and modeling notebooks by Paola Garcia. Each notebook states its question, the data it uses, what it does, and what the data cannot tell you.
 
 Portfolio with case studies and demos: https://paogarciar.github.io
 
@@ -16,17 +16,17 @@ Approach
     ◦ Top job interests: full-stack, front-end and back-end web development, mobile, data science
     ◦ Only 31.7% of respondents have a single focus. Mixed interests suit a broad catalog.
     ◦ About 86% are interested in web or mobile development, so the sample fits.
-2.  Market size: by country of residence, the US holds 45.7% of respondents, then India 7.7%, UK 4.6% and Canada 3.8%.
+2.  Market size: by country of residence, the US holds 45.7% of respondents, followed by India (7.7%), the UK (4.6%), and Canada 3.8%.
 3.  Willingness to pay: monthly spend = total spent on learning ÷ months programming. Analysis focused on five English-speaking markets: US, India, UK, Canada, Australia.
 4.  Outlier handling, using boxplots and investigating each case
     ◦ Removed reports above $20,000/month
-    ◦ For values above $2,000–$6,000, checked whether the person attended a bootcamp and how long they had been coding. A large up-front bootcamp fee divided by 1–3 months gives an unrealistic monthly figure, so these were removed when not justified.
+    ◦ For values above $2,000–$6,000, checked whether the person attended a bootcamp and how long they had been coding. A large up-front bootcamp fee divided by 1–3 months produces an unrealistic monthly figure, so I removed these when not justified.
 
 Results: average monthly spend after cleaning
 
 <img width="641" height="230" alt="Screenshot 2026-11-25 at 16 28 52" src="https://github.com/user-attachments/assets/8210a0a6-5690-427e-93b8-8ab10987069b" />
 
-Australia dropped from $419 to $63 once outliers were removed. This shows how much the cleaning step mattered. (Best%20Markets%20to%20Advertise%20in%20an%20E-learning%20Product.ipynb)
+Australia dropped from $419 to $63 after removing outliers. This shows how much the cleaning step mattered. (Best%20Markets%20to%20Advertise%20in%20an%20E-learning%20Product.ipynb)
 Recommendation
 • Primary market: United States, the largest audience with the highest spend.
 • Avoid the UK: average spend is below the subscription price.
@@ -98,7 +98,7 @@ Key insights
 Tools: Python, pandas, NumPy, yfinance, statsmodels, scikit-learn (SVC, permutation_importance, scalers), Matplotlib, Seaborn.
 
 [Credit Card Customer Segmentation](Credit%20Card%20Customer%20Segmentation.ipynb) 
-README
+
 Goal. Use K-Means to assign every client to a segment, explain what makes each segment different, and suggest how to target it.
 Data. 10,127 customers, 14 features, no missing values. Features include age, gender, dependents, education, marital status, tenure (months on book), number of products, months inactive, credit limit, total transaction amount and count, average utilization ratio and estimated income. 1,627 customers (16%) have churned.
 Approach
@@ -161,14 +161,48 @@ Approach and findings
 Conclusion. Time is the strongest indicator: warm months, business days and rush hours. A few kinds of mildly bad weather also raise traffic, plausibly because pedestrians and cyclists switch to cars.
 Tools: Python, pandas, Matplotlib (grid charts, histograms, line plots).
 
+Profitable App Profiles for the App Store and Google Play
+
+Business question. Our company builds only free Android and iOS apps and earns its revenue from in-app ads, so revenue depends on the number of users. Which app profiles attract the most users on both the App Store and Google Play?
+Validation strategy behind the analysis
+1.  Build a minimal Android version and publish it on Google Play.
+2.  If users respond well, develop it further.
+3.  If it is profitable after six months, build the iOS version.
+So the target is a profile that works in both markets.
+Data. Google Play: 10,841 apps × 13 columns. App Store: 7,197 apps × 16 columns.
+
+Data cleaning, done in core Python with the csv module and custom functions
+
+<img width="642" height="320" alt="Screenshot 2026-11-25 at 17 15 12" src="https://github.com/user-attachments/assets/c2e1fcb7-81ab-458a-8770-02a6ed38f2a9" />
+
+Findings
+• The App Store is built for fun: 58.2% of free English apps are games, followed by Entertainment (7.9%) and Photo & Video (5.0%). Practical apps are rare.
+• Google Play is more balanced: Family (18.9%, mostly kids' games), Game (9.7%), Tools (8.5%), then Business, Lifestyle and Productivity.
+• A large supply doesn't mean large demand. Average installs by category on Google Play:
+    ◦ Communication: 38.5M, but only 3.6M once apps with 100M+ installs are excluded
+    ◦ Video Players: 24.7M (YouTube, MX Player)
+    ◦ Game: 15.6M, but the market is saturated
+    ◦ Books & Reference: 8.8M, skewed by only a handful of giants (Google Play Books, Kindle, Wattpad, Audible, Bible)
+• In the 1M–100M install range, Books & Reference is dominated by ebook readers and dictionaries. Several apps built around a single book (for example the Quran) do well.
+Recommendation. Turn a popular, ideally recent, book into an app. A plain library won't stand out, so add features: daily quotes, an audio version, quizzes and a discussion forum.
+Key insights
+• Averages hide winner-take-all markets. Checking which apps drive a category's average changed the recommendation.
+• Install counts are open-ended bins ("100,000+"), so they were treated as lower bounds. That is precise enough for comparing genres.
+Tools: Python (core only: csv, lists, dictionaries, custom functions). No pandas.
+
 
 ## All notebooks
+- [Amazon Stock Price vs. the US Economy (1997–2022)s book1](Amazon%20Stock%20Price%20Creating%20dataset%20book%201.ipynb)  
+
+- [Amazon Stock Price vs. the US Economy (1997–2022) book2](Amazon%20Stock%20Price%20Analysis%201997%20to%202022%20book2.ipynb)
+
+- [Anti-diabetic drug sales](Anti-diabetic%20drug%20sales.ipynb)
 
 - [Best Markets to Advertise in an E-learning Product](Best%20Markets%20to%20Advertise%20in%20an%20E-learning%20Product.ipynb)
 
 - [Credit Card Customer Segmentation](Credit%20Card%20Customer%20Segmentation.ipynb)
 
-- [Data Visualization on Exchange Rates](Data%20Visualization%20on%20Exchange%20Rates.ipynb)
+- [Euro–Dollar Exchange Rates: Data Storytelling (1999–2021)](Data%20Visualization%20on%20Exchange%20Rates.ipynb)
 
 - [I-94 Traffic Dataset](I-94%20Traffic%20Dataset.ipynb)
 
