@@ -222,4 +222,4 @@ Tools: Python (core only: csv, lists, dictionaries, custom functions). No pandas
 
 ## Tools
 
-Python, pandas, NumPy, scikit-learn, matplotlib, Jupyter.
+Python (pandas, NumPy, scikit-learn, statsmodels, pmdarima) · Time-series forecasting (Holt-Winters, ARIMA/SARIMA, backtesting) · Clustering (K-Means) · Feature importance · Hypothesis testing (ADF) · Data cleaning and outlier analysis · API data collection (yfinance) · Data visualization and storytelling (Matplotlib, Seaborn)
