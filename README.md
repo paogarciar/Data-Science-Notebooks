@@ -1,4 +1,3 @@
-[Uploading Anti-diabetic drug sales.ipynb…]()
 Analysis and modeling notebooks by Paola Garcia. Each notebook states its question, the data it used, what was done, and what the data cannot tell you.
 
 Portfolio with case studies and demos: https://paogarciar.github.io
